@@ -1,10 +1,3 @@
-:root {
-  --background: #fdc500;
-  --primary: #b4ffff;
-  --secondary: #a63c06;
-  --btn-bg: blue;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +6,12 @@
   list-style-type: none;
   font-family: "Exo 2", sans-serif;
 }
+.overflow-auto {
+  overflow: auto;
+}
 
 header {
-  background: var(--primary);
+  background: #b4ffff;
   width: 100%;
   display: flex;
   justify-content: space-between;
