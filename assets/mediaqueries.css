@@ -60,4 +60,23 @@
   .hero-img {
     display: none;
   }
+  #text-info h3 {
+    text-align: center;
+    width: 80%;
+  }
+  .info-cards {
+    width: 90%;
+    height: 330px;
+    justify-content: center;
+  }
+  .info-cards p {
+    width: 90%;
+  }
+  .contact-img {
+    display: none;
+  }
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+  }
 }
